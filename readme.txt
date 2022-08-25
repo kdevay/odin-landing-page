@@ -3,11 +3,6 @@ This is an assignment for The Odin Project. What follows is a paraphrasing of th
 General
 - mimic the given design, but don't worry about getting it pixel-perfect.
 - Feel free to substitute your own content.
-- Ensure any images are free for you to use, and credit the image creator (put the creator’s name and contact info in you README file AND find free images @Pexels, Pixabay, and Unsplash)
-
-Assignment
-- The font that’s being used in the images is roboto.
-- Hero text is the statement that appears at the top of a web page.
 - 4 main sections and a footer
 - Don't worry about optimizing for mobile
 
@@ -16,6 +11,9 @@ Publishing
 - odin-landing-page repo > Settings
 -  Pages (left side bar)
 - Change source from "none" to "main branch" >  Save
+
+Here are credits for photos used:
+-water image by Ave Calvar Martinez, found on Pexels
 
 The lines below are my notes for the structure of the html, including some odin css requirements.
 
@@ -34,9 +32,6 @@ basic HTML structure
     - call to action div
         - call to action div
 - footer div
-    height: 5vh;
-    background-color: #1F2937 
-
 
 
 Basic Css plan
@@ -44,11 +39,12 @@ body{
     font-family: roboto, Nunito, sans-serif
 }
 
-header div 
+.header { 
     height: 6vh;
     background-color: #1F2937
     font-size: 24px;
     color: #F9FAF8;
+}
 
 header links (a), 
 hero secondary text,
