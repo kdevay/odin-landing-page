@@ -12,8 +12,12 @@ Publishing
 -  Pages (left side bar)
 - Change source from "none" to "main branch" >  Save
 
-Here are credits for photos used:
--water image by Ave Calvar Martinez, found on Pexels
+All images were sourced from Pexels.com. Here are credits for photos used:
+- water image by Ave Calvar Martinez
+- salt flat image by Carolina Cantelli
+- white textile image by Hoang le
+- sand image by Petr Ganaj
+- sea foam image by Dmitry Alexandrovich
 
 The lines below are my notes for the structure of the html, including some odin css requirements.
 
