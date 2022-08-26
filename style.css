@@ -1,47 +1,74 @@
 
+/* Main containers */
 body {
     font-family: "Roboto", "Nunito", sans-serif;
     min-height: 100vh;
+    margin: 0;
 }
 
 .header { 
-    height: 6vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8vh;
     background-color: #1F2937;
     font-size: 24px;
+    font-weight: 700;
     color: #F9FAF8;
+    padding: 0 24vh;
 }
 
 .footer {
     display: flex;
-    height: 5vh;
+    height: 10vh;
     background-color: #1F2937; 
     justify-content: center;
-    align-content: center;
+    align-items: center;
 }
 
 .content {
-    height: 90vh;
+    height: 225vh;
+}
+
+/* Header content */
+p {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    margin: 0 10px;
 }
 
 /* Hero & nested elements */
 .hero {
     background-color: #1F2937;
-    height: 25vh;
+    height: 50vh;
     display: flex;
-    justify-content: center;
-    align-content: center;
-    gap: 5vh;
+    flex: 0 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5vh 24vh;
 }
 
 .hheading {
     font-size: 48px;
-    font-weight: 900px;
+    font-weight: 900;
     color: #F9FAF8;
 }
 
+.half {
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    width: 49%;
+    height: 80%;
+}
+
 .himg {
-    width: 40vh;
-    height: 12.5vh;
+    width: 100%;
+    height: 95%;
 }
 
 button {
@@ -52,50 +79,69 @@ button {
     font-weight: bold;
     color: #F9FAF8;
     border: none;
+    width: 150px;
 }
+
 
 /* Info div and nested contents */
 .info {
-    display: flex;
-    height: 26vh;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
 }
 
 .heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-size: 36px;
-    font-weight: extra-bold;
-    color: #1F2937
+    font-weight: 900;
+    color: #1F2937;
+    padding: 7vh 0;
 }
 
 .tiles {
     display: flex;
     justify-content: center;
-    align content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .tile {
-    margin: 0 5vh;
+    flex-wrap: wrap;
+    height: 23vh;
+    width: 23vh;
+    margin: 0 4vh 10vh 4vh;
+    text-align: center;
 }
 
 .timg {
-    height: 8vh;
-    width: 8vh;
-    border: 1px solid #3882f6;
-    border-radius: 8px; 
+    height: 23vh;
+    width: 23vh;
+    border: 4px solid #3882f6;
+    border-radius: 14px; 
+}
+
+.ttext {
+    font-size: 18px;
+    color: #62676e;
+    font-weight: 300;
 }
 
 /* Quote div and contents */
 .quote {
-    height: 21vh;
+    height: 60vh;
     background-color: #E5E7EB;
     display: flex;
-    justify-content: center;
-    align content: center;
-    color: #1F2937
+    justify-items: center;
+    align-items: center;
+    color: #1F2937;
+    padding: 0 40vh;
 }
 
 .quote-text {
     font-size: 36px;
-    font-weight: light;
+    font-weight: 300;
     font-style: italic;
 }
 
@@ -103,36 +149,48 @@ button {
     font-size: 24px;
     font-weight: bold;
     float: right;
+    font-style: normal;
 }
 
 /* Call to action div */
-.box {
+.last {
     display: flex;
-    justify-content: center;
-    align content: center;
-    height: 17vh;
+    justify-items: center;
+    align-items: center;
+    height: 34vh;
+    padding: 5vh 24vh;
 }
 
-.action {
-    height: 6vh;
+.box {
+    flex: 1 0 auto;
+    display: flex;
+    height: 12vh;
     background-color: #3882f6;
     border-radius: 8px;
     font-size: 24px;
     font-weight: bold;
     color: #F9FAF8;
+    padding: 5vh 10vh;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .act {
-    border: 2px solid white;
+    flex: 0 0 auto;
+    border: 2px solid #F9FAF8;
     float: right;
+    height: 6vh;
+    width: 24vh;
+    font-size: 16px;
+    padding: 0;
 }
 
 /* subtext styling */
-a, 
+.link, 
 .hsubtext,
-.ttext,
 .atext,
 .footer {
     font-size: 18px;
     color: #E5E7EB;
+    font-weight: 300;
 }
