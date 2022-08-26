@@ -7,8 +7,7 @@ All images were sourced from Pexels.com. Here are the attributions in order of a
 - sand image by Petr Ganaj
 - sea foam image by Dmitry Alexandrovich
 
-All the text used throughout the page were quotations from various characters in the 2004 indie movie "I Heart Huccabees" 
-which was written by Jeff Baena and David O. Russell.
+All the text used throughout the page were quotations from various characters in the 2004 indie movie "I Heart Huccabees", which was written by Jeff Baena and David O. Russell.
 
 Basic HTML structure
 - header div 
